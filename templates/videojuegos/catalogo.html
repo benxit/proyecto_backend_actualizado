@@ -29,6 +29,10 @@
                     <a href="{% url 'admin:videojuegos_videojuego_change' juego.id %}" class="btn btn-sm btn-outline-gold">Modificar</a>
                     <a href="{% url 'admin:videojuegos_videojuego_delete' juego.id %}" class="btn btn-sm btn-outline-danger">Eliminar</a>
                 </div>
+                <div class="poster-actions">
+                    <a href="{% url 'admin:videojuegos_videojuego_change' juego.id %}" class="btn btn-sm btn-outline-gold">Modificar</a>
+                    <a href="{% url 'admin:videojuegos_videojuego_delete' juego.id %}" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                </div>
             </div>
         </div>
         {% empty %}
